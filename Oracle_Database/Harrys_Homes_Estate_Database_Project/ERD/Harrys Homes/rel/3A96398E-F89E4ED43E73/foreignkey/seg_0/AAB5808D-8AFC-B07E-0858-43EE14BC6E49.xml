@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AAB5808D-8AFC-B07E-0858-43EE14BC6E49" containerWithKeyObject="3A0A33EA-E03D-6E18-1C4A-3D6C31EEBF12" localFKIndex="28566D3D-82C1-72A4-34AD-E0AF57914D77" name="Adverts_Ad_Type_FK">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>273A6D55-3A61-EE63-C718-4320868FDFFD</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<referredTableLongName>Ad_Type</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>22DDB293-7A11-6A9A-0E0C-0CAC378B0D1F</referredTableID>
+<keyObject>BA383752-D799-3CF6-9242-623D410239CD</keyObject>
+<referredKeyID>BA383752-D799-3CF6-9242-623D410239CD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>AdTypeID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

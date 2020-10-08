@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="00496B2D-38CC-CB45-CA18-9C6D65EAFDEC" mainViewID="F1E7A5BE-3BEA-5D8E-5AE0-E414C8A2F014">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 19:39:24 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

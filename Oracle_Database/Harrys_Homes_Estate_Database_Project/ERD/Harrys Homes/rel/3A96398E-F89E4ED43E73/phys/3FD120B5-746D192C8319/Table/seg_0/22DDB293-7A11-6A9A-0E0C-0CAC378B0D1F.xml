@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Ad_Type" directorySegmentName="seg_0" id="22DDB293-7A11-6A9A-0E0C-0CAC378B0D1F">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:54:40 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="AdType" id="1C953D86-5A08-EDF6-CFC2-BF2214E311A3">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:54:40 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AdTypeID" id="4D02F969-1099-2203-ECF3-C8EEAB738643">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:54:40 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Ad_Type_PK" id="BA383752-D799-3CF6-9242-623D410239CD">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:54:40 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

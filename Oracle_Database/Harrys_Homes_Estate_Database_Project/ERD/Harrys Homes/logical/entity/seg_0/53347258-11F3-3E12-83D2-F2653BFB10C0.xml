@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53347258-11F3-3E12-83D2-F2653BFB10C0" name="HH_Property">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 19:55:48 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PID" id="39803FE3-68E3-D592-C014-219C05B319A3">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 19:56:03 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D0AE1AA1-ADA6-13A2-8D5A-63A400A357A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Paddr" id="DEA5A6EC-1C3B-0FEF-3B94-6B4115E83012">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 19:56:25 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0F0B9820-33DB-89D9-59D1-B881B54E7C45</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No_Beds" id="02A7D3BD-1CC3-BAD5-9755-5AC4370A409A">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 19:57:00 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>460A9012-4201-86DA-D493-466F659829F8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SaleMethod" id="5A0C94A3-5791-62CB-3AA5-AEA68E019611">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 19:57:47 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3B3A3E86-D89A-64DE-0A9D-AA0EBFCE9421</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RegDate" id="E85E5AF6-BFFD-DB16-6782-FDF96664E3E4">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 19:58:56 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>94131503-F6F4-E76E-F3E0-611A35BDACBD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Notes" id="99EA24BE-691A-DAAB-1941-23F393A50070">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 19:59:26 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D366A9E0-50D2-F264-EEAD-CD11A6DAC595</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MinAskPrice" id="00D68CD8-A306-F4AE-57E8-552E6AA1CD6A">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 19:59:27 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F85F52C3-BC60-FB6E-4ADD-6927A81B18BE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Valu" id="3D4D9086-36A5-2E0A-1D06-F07F193B5455">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 19:59:27 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F85F52C3-BC60-FB6E-4ADD-6927A81B18BE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AgentID" id="A3E16FFC-01C5-D525-BA02-756559CA08F2">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 20:30:51 UTC</createdTime>
+<generatorID>09982DF6-CDE4-1977-2464-8639A3B4E7FB</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<referedAttribute>54603D08-B89B-AFD7-C1A7-351A2A705758</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D0AE1AA1-ADA6-13A2-8D5A-63A400A357A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProTypeID" id="CC7B9FE0-09BC-125E-EA87-A265026C0BC6">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 20:32:23 UTC</createdTime>
+<generatorID>8C7D93DA-901A-0233-F5C6-FF45D5BFD207</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<referedAttribute>2FC00A3C-A61F-C9C4-5BF6-FB6A9A8C5C16</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D0AE1AA1-ADA6-13A2-8D5A-63A400A357A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D87C1CA5-3EA6-D898-A389-2A4F48624376" name="Property PK">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 19:56:15 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>39803FE3-68E3-D592-C014-219C05B319A3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

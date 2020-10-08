@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D0B43043-3902-EE36-0E63-C36F94CF03D6" name="HH_Branch">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>3BEDDC9B-748B-4DD8-6E87-961F41F69BF7</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BID" id="00BFD7CC-5CDC-7946-336C-DC008CC8B1C4">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>1A2B4F1D-20DC-35D6-B9B0-6A0B97FBB469</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D0AE1AA1-ADA6-13A2-8D5A-63A400A357A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bname" id="23558A4D-5364-BBDB-24BA-374588852133">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>DF2E7EE6-9310-6A2A-996A-6B95064324BA</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6AE53143-F148-6E73-A22F-ACDB6DD06AA1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Baddr" id="E4ACA78E-01A0-C4C8-0F40-5562440787C2">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>6AA59CD4-D4EC-E1C9-47E9-FE55D1C3E129</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>903225F0-144C-1BC9-4721-05DFEB65E252</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0674583B-03F5-6C79-8529-E5827C27FF60" name="Branch_PK">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>33798F2A-30E5-1970-8AF8-370CC06BAB57</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00BFD7CC-5CDC-7946-336C-DC008CC8B1C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

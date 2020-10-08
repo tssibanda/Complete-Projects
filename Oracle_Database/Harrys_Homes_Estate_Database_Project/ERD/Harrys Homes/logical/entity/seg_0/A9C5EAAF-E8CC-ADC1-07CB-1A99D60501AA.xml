@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A9C5EAAF-E8CC-ADC1-07CB-1A99D60501AA" name="HH_ProType">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 20:06:18 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ProTypeID" id="2FC00A3C-A61F-C9C4-5BF6-FB6A9A8C5C16">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 20:06:36 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D0AE1AA1-ADA6-13A2-8D5A-63A400A357A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProTypeName" id="078EF26E-6330-969C-A712-1A5D03E68317">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 20:06:35 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6AE53143-F148-6E73-A22F-ACDB6DD06AA1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CatID" id="075EF0A5-A95A-12CD-6528-F6F792C7FA9D">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 20:33:53 UTC</createdTime>
+<generatorID>3E5AD617-F0E5-8111-0FF9-3BB288C53C33</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<referedAttribute>785957FE-573C-81B9-2346-3A35C05D30C8</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D0AE1AA1-ADA6-13A2-8D5A-63A400A357A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8D773850-BD3E-358A-6FD2-ED3545EE2D4E" name="Pro_Type PK">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 20:06:51 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2FC00A3C-A61F-C9C4-5BF6-FB6A9A8C5C16</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

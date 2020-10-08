@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3BEDDC9B-748B-4DD8-6E87-961F41F69BF7" name="HH_Branch">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 20:02:12 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="BID" id="1A2B4F1D-20DC-35D6-B9B0-6A0B97FBB469">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 20:02:23 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D0AE1AA1-ADA6-13A2-8D5A-63A400A357A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bname" id="DF2E7EE6-9310-6A2A-996A-6B95064324BA">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 20:02:23 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6AE53143-F148-6E73-A22F-ACDB6DD06AA1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Baddr" id="6AA59CD4-D4EC-E1C9-47E9-FE55D1C3E129">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 20:02:24 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>903225F0-144C-1BC9-4721-05DFEB65E252</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="33798F2A-30E5-1970-8AF8-370CC06BAB57" name="Branch PK">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 20:02:39 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1A2B4F1D-20DC-35D6-B9B0-6A0B97FBB469</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

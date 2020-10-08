@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Branch" directorySegmentName="seg_0" id="D0B43043-3902-EE36-0E63-C36F94CF03D6">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:54:40 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="BID" id="00BFD7CC-5CDC-7946-336C-DC008CC8B1C4">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:54:40 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Bname" id="23558A4D-5364-BBDB-24BA-374588852133">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:54:40 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Attribute_3" id="E4ACA78E-01A0-C4C8-0F40-5562440787C2">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:54:40 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Branch_PK" id="0674583B-03F5-6C79-8529-E5827C27FF60">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:54:40 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

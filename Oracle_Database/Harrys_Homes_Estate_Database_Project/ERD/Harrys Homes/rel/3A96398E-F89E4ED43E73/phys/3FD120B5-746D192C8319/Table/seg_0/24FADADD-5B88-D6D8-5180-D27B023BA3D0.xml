@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Valu_App" directorySegmentName="seg_0" id="24FADADD-5B88-D6D8-5180-D27B023BA3D0">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:54:40 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="AppDate" id="8C4F15E2-275E-3FC4-33E2-9158E2A6409F">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:54:40 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Property_PID" id="C56019DB-4553-CAA5-46C1-1588F3524884">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:54:40 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Valu_App_Property_FK" id="C17883EC-30E4-A388-F41A-9FF329C236F4">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:54:40 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Valu_App_PK" id="E931779E-C7BB-BBA5-EDEB-980D88D2542C">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:54:40 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

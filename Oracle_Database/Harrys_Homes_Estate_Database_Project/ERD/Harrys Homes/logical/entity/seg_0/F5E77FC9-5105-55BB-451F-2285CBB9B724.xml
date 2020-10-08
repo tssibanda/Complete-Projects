@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F5E77FC9-5105-55BB-451F-2285CBB9B724" name="HH_Clients">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 19:48:06 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CID" id="6BC214F9-86CB-F197-B891-F9051CBDE133">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 19:49:59 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D0AE1AA1-ADA6-13A2-8D5A-63A400A357A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cname" id="DCF22DCE-E5F8-563C-522F-0566AB6D867C">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 19:51:35 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>30CCABC5-8936-513B-F7D3-9588FE73C518</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Caddr" id="F3E0BD6A-10AF-26CE-ED32-C0387308B0F2">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 19:53:18 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>42C241E2-84CC-D848-86CE-4B0FA739356B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cphone" id="6D1CE7B0-2E37-8A0C-1AA8-B73A4F3C2FF0">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 19:53:57 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>39C0DE63-4576-F18D-526D-A324D1642B6A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cemail" id="0F388FA0-7C98-B38C-7C2F-35B45E0D808B">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 19:54:33 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D665172C-3E28-9321-A3B9-4B1E12C3F1BD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cbudget" id="2AE82412-FB1A-04FF-E78C-4B211E96EC9D">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 19:54:56 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F85F52C3-BC60-FB6E-4ADD-6927A81B18BE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="186A64F8-ACE1-D019-CA92-63D70FFC63E7" name="Client PK">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 19:50:24 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6BC214F9-86CB-F197-B891-F9051CBDE133</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2032BAB-ED61-7CDC-2EDD-85470A1E31A1" name="HH_ProType">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>A9C5EAAF-E8CC-ADC1-07CB-1A99D60501AA</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ProTypeID" id="0B806AA7-2423-665A-B980-DB17BCF51975">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>2FC00A3C-A61F-C9C4-5BF6-FB6A9A8C5C16</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D0AE1AA1-ADA6-13A2-8D5A-63A400A357A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProTypeName" id="7D7553FF-2122-2C41-1D83-C893C1BB2C33">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>078EF26E-6330-969C-A712-1A5D03E68317</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6AE53143-F148-6E73-A22F-ACDB6DD06AA1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CatID" id="AC48FADA-67C6-EEAE-0817-07B1CCF57A3A">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>075EF0A5-A95A-12CD-6528-F6F792C7FA9D</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D0AE1AA1-ADA6-13A2-8D5A-63A400A357A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D88B0BE0-5ED3-B080-6272-B265928E4B51" referredColumn="F56FEFD1-F781-BCF6-3CFF-E828AF87E7AA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B810752E-7142-C754-0046-766880E05C1C" name="Pro_Type_PK">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>8D773850-BD3E-358A-6FD2-ED3545EE2D4E</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B806AA7-2423-665A-B980-DB17BCF51975"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75055E62-40F4-9C93-D7B8-F22115EC78FF" name="Pro_Type_Pro_Cat_FK">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>3E5AD617-F0E5-8111-0FF9-3BB288C53C33</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC48FADA-67C6-EEAE-0817-07B1CCF57A3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

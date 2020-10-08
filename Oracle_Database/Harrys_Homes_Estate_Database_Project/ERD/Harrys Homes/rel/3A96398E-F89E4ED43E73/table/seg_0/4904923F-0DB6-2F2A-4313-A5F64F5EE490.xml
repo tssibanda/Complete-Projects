@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4904923F-0DB6-2F2A-4313-A5F64F5EE490" name="HH_ProCat">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>064F4BB9-6550-ED24-257F-A56E9E21DE32</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CatID" id="F56FEFD1-F781-BCF6-3CFF-E828AF87E7AA">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>785957FE-573C-81B9-2346-3A35C05D30C8</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D0AE1AA1-ADA6-13A2-8D5A-63A400A357A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CatName" id="D60E6A11-1099-5EE4-2596-052C0D2A463A">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>68485C87-EDF1-0005-D496-F3D41FA1AF3C</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6AE53143-F148-6E73-A22F-ACDB6DD06AA1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE3DCD9D-8D10-8FCA-85F3-CEA3C52A6F1E" name="Pro_Cat_PK">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>E4C59E25-DD10-85F0-99F2-BDEDBE05CC05</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F56FEFD1-F781-BCF6-3CFF-E828AF87E7AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

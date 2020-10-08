@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2D36A4E5-F8F4-49D8-675F-34EE7142501C" containerWithKeyObject="F64FCE94-6D1E-AEDB-6567-3D9916D4B2AD" localFKIndex="674C2867-BA3C-B11B-5036-B0B29EE8B8B1" name="Agent_Branch_FK">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>24794421-59B6-C03F-3853-0314F79BDC47</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<referredTableLongName>Branch</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D0B43043-3902-EE36-0E63-C36F94CF03D6</referredTableID>
+<keyObject>0674583B-03F5-6C79-8529-E5827C27FF60</keyObject>
+<referredKeyID>0674583B-03F5-6C79-8529-E5827C27FF60</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>BID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

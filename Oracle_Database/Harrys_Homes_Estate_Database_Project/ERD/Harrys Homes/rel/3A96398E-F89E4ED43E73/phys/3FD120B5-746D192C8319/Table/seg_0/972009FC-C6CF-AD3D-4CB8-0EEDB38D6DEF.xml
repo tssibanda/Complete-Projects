@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Client" directorySegmentName="seg_0" id="972009FC-C6CF-AD3D-4CB8-0EEDB38D6DEF">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:54:40 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Cphone" id="4E1CD017-9131-DA2F-42BE-54B4099432EB">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:54:40 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Cemail" id="6CA91821-6A01-AE81-EBCD-A3A7B39AC53B">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:54:40 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Caddr" id="6D99ED66-61D0-B49C-B561-B1DD09A8918A">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:54:40 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Cname" id="AE07FC9B-0273-D93C-D216-D888F06B58C7">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:54:40 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CID" id="FB99DA94-1A46-91CE-47FC-A26B736589A1">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:54:40 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Cbudget" id="FBE0A72A-22A9-F28D-C367-35C739305B3D">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:54:40 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Client_PK" id="CD74A7E5-A7D0-CA91-C2D0-80EE7DCCD3BB">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:54:40 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

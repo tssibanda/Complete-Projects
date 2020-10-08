@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A0A33EA-E03D-6E18-1C4A-3D6C31EEBF12" name="HH_Adverts">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>F6547AD4-CDB1-AD3E-1356-EF0E933021B8</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AdDate" id="C3B77A96-E61F-D15F-5A13-FD2DC4FFCB50">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>D54D4145-7C11-4357-5215-57B8BD0B38A3</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>94131503-F6F4-E76E-F3E0-611A35BDACBD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AdCost" id="DFEC783C-9CDA-9D27-E2AE-7AA2CC640A6A">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>B8081BB4-E6A3-CDDA-D7BF-E87B06D3D546</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F85F52C3-BC60-FB6E-4ADD-6927A81B18BE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PID" id="49AE6368-C478-3AA9-DF29-98D94E042A90">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>D6DD5064-AB59-5775-C90A-6432E0160568</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D0AE1AA1-ADA6-13A2-8D5A-63A400A357A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F38BFD9-C1F2-5029-110A-F0DA1D892335" referredColumn="4141922C-F8EC-63FA-CFE8-D366E1E0D1FF"/>
+</associations>
+</Column>
+<Column name="AdTypeID" id="F7BAD0AE-0D7F-25B8-C437-B81C770FF1F9">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>5A64439A-820C-45B3-6B99-44D996382C7B</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D0AE1AA1-ADA6-13A2-8D5A-63A400A357A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AAB5808D-8AFC-B07E-0858-43EE14BC6E49" referredColumn="4D02F969-1099-2203-ECF3-C8EEAB738643"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E32CF62-55F4-CDF0-48AA-18CC7B1E507A" name="Adverts_PK">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>14421932-E0FD-7E7E-B06F-5D699111979A</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49AE6368-C478-3AA9-DF29-98D94E042A90"/>
+<colUsage columnID="C3B77A96-E61F-D15F-5A13-FD2DC4FFCB50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28566D3D-82C1-72A4-34AD-E0AF57914D77" name="Adverts_Ad_Type_FK">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>273A6D55-3A61-EE63-C718-4320868FDFFD</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7BAD0AE-0D7F-25B8-C437-B81C770FF1F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A5C333C-97D4-7E12-2BA1-A036F4CD14E6" name="Adverts_Property_FK">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>36A263C9-B39C-BFD6-9ED0-7E551A4C4B6C</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49AE6368-C478-3AA9-DF29-98D94E042A90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

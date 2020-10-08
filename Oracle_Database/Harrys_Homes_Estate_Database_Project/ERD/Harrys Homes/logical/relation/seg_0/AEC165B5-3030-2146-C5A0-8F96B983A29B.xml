@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Buyer" directorySegmentName="seg_0" id="AEC165B5-3030-2146-C5A0-8F96B983A29B">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 09:58:52 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<sourcePk>186A64F8-ACE1-D019-CA92-63D70FFC63E7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F5E77FC9-5105-55BB-451F-2285CBB9B724</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>09ED12DD-5E52-B63A-9091-AE3DF1EBE4D8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

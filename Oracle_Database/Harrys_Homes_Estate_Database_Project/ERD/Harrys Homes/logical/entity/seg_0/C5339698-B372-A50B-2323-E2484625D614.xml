@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C5339698-B372-A50B-2323-E2484625D614" name="Valu_App">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 20:12:06 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="AppDate" id="DE68B3F4-254D-C225-9884-C6176E2E7B49">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 20:12:32 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>94131503-F6F4-E76E-F3E0-611A35BDACBD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PID" id="07B19FF6-3FC6-5297-E743-5953F159002A">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 20:38:06 UTC</createdTime>
+<generatorID>9DDFDC59-CDF5-0E78-D05F-25E622B039FF</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<referedAttribute>39803FE3-68E3-D592-C014-219C05B319A3</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D0AE1AA1-ADA6-13A2-8D5A-63A400A357A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="07BD328E-FBAE-4C8B-4252-BD71C1F28D43" name="Valu_App PK">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 20:47:23 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<engineerTo>
+<item key="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>07B19FF6-3FC6-5297-E743-5953F159002A</attributeRef>
+<attributeRef>DE68B3F4-254D-C225-9884-C6176E2E7B49</attributeRef>
+<attributeRef>07B19FF6-3FC6-5297-E743-5953F159002A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

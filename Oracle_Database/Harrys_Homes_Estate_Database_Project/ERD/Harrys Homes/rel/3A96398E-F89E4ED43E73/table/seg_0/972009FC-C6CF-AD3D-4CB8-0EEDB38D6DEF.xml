@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="972009FC-C6CF-AD3D-4CB8-0EEDB38D6DEF" name="HH_Clients">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>F5E77FC9-5105-55BB-451F-2285CBB9B724</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CID" id="FB99DA94-1A46-91CE-47FC-A26B736589A1">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>6BC214F9-86CB-F197-B891-F9051CBDE133</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D0AE1AA1-ADA6-13A2-8D5A-63A400A357A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cname" id="AE07FC9B-0273-D93C-D216-D888F06B58C7">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>DCF22DCE-E5F8-563C-522F-0566AB6D867C</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>30CCABC5-8936-513B-F7D3-9588FE73C518</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Caddr" id="6D99ED66-61D0-B49C-B561-B1DD09A8918A">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>F3E0BD6A-10AF-26CE-ED32-C0387308B0F2</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>42C241E2-84CC-D848-86CE-4B0FA739356B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cphone" id="4E1CD017-9131-DA2F-42BE-54B4099432EB">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>6D1CE7B0-2E37-8A0C-1AA8-B73A4F3C2FF0</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>39C0DE63-4576-F18D-526D-A324D1642B6A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cemail" id="6CA91821-6A01-AE81-EBCD-A3A7B39AC53B">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>0F388FA0-7C98-B38C-7C2F-35B45E0D808B</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D665172C-3E28-9321-A3B9-4B1E12C3F1BD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cbudget" id="FBE0A72A-22A9-F28D-C367-35C739305B3D">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>2AE82412-FB1A-04FF-E78C-4B211E96EC9D</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F85F52C3-BC60-FB6E-4ADD-6927A81B18BE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD74A7E5-A7D0-CA91-C2D0-80EE7DCCD3BB" name="HH_Clients_PK">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-22 11:10:30 UTC</createdTime>
+<generatorID>186A64F8-ACE1-D019-CA92-63D70FFC63E7</generatorID>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB99DA94-1A46-91CE-47FC-A26B736589A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

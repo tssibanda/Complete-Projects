@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="HH_RealEstate" id="3A96398E-2974-7EA6-FB3B-F89E4ED43E73" mainViewID="1CF6F302-4121-6A3C-7659-C20B51091175">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 19:39:25 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

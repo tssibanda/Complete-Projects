@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Harrys Homes" id="CD674E71-DF9E-9091-5D72-709DCA8759BE" version="3.5">
+<createdBy>Thamsanqa</createdBy>
+<createdTime>2020-04-21 19:39:24 UTC</createdTime>
+<ownerDesignName>Harrys Homes</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CD674E71-DF9E-9091-5D72-709DCA8759BE</designId>
+</OSDM_Design>
